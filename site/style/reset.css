@@ -1,0 +1,55 @@
+html, body,
+div,
+ul, ol, li,
+dl, dt, dd, td, th,
+h1, h2, h3, h4, h5, h6,
+p, pre, blockquote, fieldset,
+form, input, button, textarea {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6,
+pre, code, address, caption, cite, code,
+em, strong, th {
+	font-size: 1.0em;
+	font-weight: normal;
+	font-style: normal;
+}
+ul, ol, li {
+	list-style: none;
+}
+fieldset, img {
+	border: none;
+}
+img {
+	-ms-interpolation-mode: bicubic;
+}
+caption, th {
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+input,textarea,select {
+	*font-size: 100%;
+}
+button {
+	background-color: transparent;
+	text-decoration: none;
+}
+label {
+	cursor: pointer;
+}
+/* IEPNGFIX */
+img { behavior: url(lib/iepngfix.htc); }
+.main-image {
+  position:absolute;
+  top:-1000px;
+  width:400px;
+}
