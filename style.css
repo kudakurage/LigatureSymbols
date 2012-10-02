@@ -2,17 +2,16 @@
 
 @font-face {
     font-family: 'LigatureSymbols';
-    src: url('LigatureSymbols.eot');
-    src: url('LigatureSymbols.eot?#iefix') format('embedded-opentype'),
-         url('LigatureSymbols.woff') format('woff'),
-         url('LigatureSymbols.ttf') format('truetype'),
-         url('LigatureSymbols.svg#LigatureSymbols') format('svg');
-    src: url('LigatureSymbols.ttf') format('truetype');
+    src: url('LigatureSymbols-2.05.eot');
+    src: url('LigatureSymbols-2.05.eot?#iefix') format('embedded-opentype'),
+         url('LigatureSymbols-2.05.woff') format('woff'),
+         url('LigatureSymbols-2.05.ttf') format('truetype'),
+         url('LigatureSymbols-2.05.svg#LigatureSymbols') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-.lsf {
+.lsf, .lsf-icon:before {
   font-family: 'LigatureSymbols';
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
@@ -34,22 +33,6 @@
   content:attr(title);
   margin-right:0.3em;
   font-size:130%;
-  font-family: 'LigatureSymbols';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga" 1, "dlig" 1;
-  -o-font-feature-settings: "liga" 1, "dlig" 1;
-  font-feature-settings: "liga" 1, "dlig" 1;
 }
 
 
@@ -141,7 +124,7 @@ body {
 	'Hiragino Kaku Gothic Pro',
 	'ヒラギノ角ゴ Pro W3',
 	'ＭＳ Ｐゴシック',
-	"MS P Gothic",
+	'MS P Gothic',
 	sans-serif;
 }
 a {
@@ -169,6 +152,9 @@ html{
   margin:60px 0 20px;
   text-align:center;
   font-size:14px;
+}
+#copyright,
+#copyright a {
   color:#ccc;
 }
 h1 {
@@ -229,7 +215,7 @@ p {
 }
 .table tr:nth-child(2n) th,
 .table tr:nth-child(2n) td {
-  background:#f6f6f6;
+  background:#f0f0f0;
 }
 .table th {
   padding-bottom:5px;
@@ -269,7 +255,7 @@ p {
   -webkit-overflow-scrolling:touch;
 }
 .lsf-css {
-  min-height:940px;
+  min-height:720px;
   margin-top:10px;
 }
 
