@@ -1,14 +1,12 @@
 # Ligature Symbols
 Ligature Symbols is WebFont project to display the symbol with a ligature features.I created this font by using [FontForge](http://fontforge.sourceforge.net/) (open source postscript font editor).
-IF you want to learn more, you may read [my blog entry](http://d.hatena.ne.jp/kudakurage/20120720/1342749116).
-Demo : [http://kudakurage.com/ligature_symbols/](http://kudakurage.com/ligature_symbols/)
+If you want to learn more, you may read [my blog entry](http://d.hatena.ne.jp/kudakurage/20120720/1342749116).
+Demo: [http://kudakurage.com/ligature_symbols/](http://kudakurage.com/ligature_symbols/)
 
-## Support Browser
-Ligature Symbols has broad support for the modern browser (Chrome, Safari, Firefox, iOS - Mobile Safari, Android Browser).
+## Browser Support
+Ligature Symbols works in all major browsers (Chrome, Firefox, Safari, Opera, IE, iOS, Android)
 
-## Sample HTML & CSS
-
-    <!-- HTML -->
+## Sample HTML
     
     <p>Simple use for mailto link.</p>
     <a href="mailto:mail@example.com" class="lsf">mail</a>
@@ -16,7 +14,7 @@ Ligature Symbols has broad support for the modern browser (Chrome, Safari, Firef
     <p>Use tha icon with text.</p>
     <a href="http://twitter.com/" class="lsf-icon" title="twitter">Twitter</a>
 
-    /* CSS */
+## Sample CSS
     
     @font-face {
         font-family: 'LigatureSymbols';
@@ -32,11 +30,7 @@ Ligature Symbols has broad support for the modern browser (Chrome, Safari, Firef
     
     .lsf, .lsf-icon:before {
         font-family: 'LigatureSymbols';
-        -webkit-text-rendering: optimizeLegibility;
-           -moz-text-rendering: optimizeLegibility;
-            -ms-text-rendering: optimizeLegibility;
-             -o-text-rendering: optimizeLegibility;
-                text-rendering: optimizeLegibility;
+        text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
            -moz-font-smoothing: antialiased;
             -ms-font-smoothing: antialiased;
