@@ -1,110 +1,5 @@
-@charset 'UTF-8';
-
-@font-face {
-    font-family: 'LigatureSymbols';
-    src: url('LigatureSymbols-2.05.eot');
-    src: url('LigatureSymbols-2.05.eot?#iefix') format('embedded-opentype'),
-         url('LigatureSymbols-2.05.woff') format('woff'),
-         url('LigatureSymbols-2.05.ttf') format('truetype'),
-         url('LigatureSymbols-2.05.svg#LigatureSymbols') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.lsf, .lsf-icon:before {
-  font-family: 'LigatureSymbols';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
-  -moz-font-feature-settings: "liga=1, dlig=1";
-  -ms-font-feature-settings: "liga" 1, "dlig" 1;
-  -o-font-feature-settings: "liga" 1, "dlig" 1;
-  font-feature-settings: "liga" 1, "dlig" 1;
-}
-.lsf-icon:before {
-  content:attr(title);
-  margin-right:0.3em;
-  font-size:130%;
-}
-
-
-
-/* RESET */
-html, body,
-div,
-ul, ol, li,
-dl, dt, dd, td, th,
-h1, h2, h3, h4, h5, h6,
-p, pre, blockquote, fieldset,
-form, input, button, textarea {
-	margin: 0;
-	padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6,
-pre, code, address, caption, cite, code,
-em, strong, th {
-	font-size: 1.0em;
-	font-weight: normal;
-	font-style: normal;
-}
-
-ul, ol, li {
-	list-style: none;
-}
-
-fieldset, img {
-	border: none;
-}
-
-img {
-	-ms-interpolation-mode: bicubic;
-}
-
-caption, th {
-	text-align: left;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-input,textarea,select {
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: inherit;
-}
-
-input,textarea,select {
-	*font-size: 100%;
-}
-
-button {
-	background-color: transparent;
-	text-decoration: none;
-}
-
-label {
-	cursor: pointer;
-}
-
-/* IEPNGFIX */
-img { behavior: url(lib/iepngfix.htc); }
-
-.main-image {
-  position:absolute;
-  top:-1000px;
-  width:400px;
-}
+@import url('reset.css');
+@import url('ligature.css');
 
 /* ELEMENT */
 body {
@@ -239,9 +134,9 @@ p {
 
 .lsf-html,
 .lsf-css {
-  overflow:auto;
+  overflow:visible;
+  min-height:100px;
   width:860px;
-  min-height:170px;
   padding:20px;
   border:1px solid #ddd;
   font-size:14px;
@@ -255,7 +150,6 @@ p {
   -webkit-overflow-scrolling:touch;
 }
 .lsf-css {
-  min-height:720px;
   margin-top:10px;
 }
 
@@ -497,8 +391,3 @@ p {
     font-size:10px;
   }
 }
-
-
-
-
-
