@@ -7,15 +7,15 @@ Demo: [http://kudakurage.com/ligature_symbols/](http://kudakurage.com/ligature_s
 Ligature Symbols works in all major browsers (Chrome, Firefox, Safari, Opera, IE, iOS, Android)
 
 ## Sample HTML
-    
+
     <p>Simple use for mailto link.</p>
     <a href="mailto:mail@example.com" class="lsf">mail</a>
-    
+
     <p>Use tha icon with text.</p>
     <a href="http://twitter.com/" class="lsf-icon" title="twitter">Twitter</a>
 
 ## Sample CSS
-    
+
     @font-face {
         font-family: 'LigatureSymbols';
         src: url('LigatureSymbols.eot');
@@ -27,7 +27,7 @@ Ligature Symbols works in all major browsers (Chrome, Firefox, Safari, Opera, IE
         font-weight: normal;
         font-style: normal;
     }
-    
+
     .lsf, .lsf-icon:before {
         font-family: 'LigatureSymbols';
         text-rendering: optimizeLegibility;
@@ -37,7 +37,7 @@ Ligature Symbols works in all major browsers (Chrome, Firefox, Safari, Opera, IE
              -o-font-smoothing: antialiased;
                 font-smoothing: antialiased;
     }
-    
+
     .lsf-icon:before {
         content: attr(title);
         margin-right: .3em;
