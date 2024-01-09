@@ -47,3 +47,4 @@ Ligature Symbols works in all major browsers (Chrome, Firefox, Safari, Opera, IE
 ## License
 You can get Ligature Symbols for free.
 This Font is licensed under [the SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+[learn more](https://golfwatchs.com/fintechzoom-rolex-submariner-replica-watches/).
